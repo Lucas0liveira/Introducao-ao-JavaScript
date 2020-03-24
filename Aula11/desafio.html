@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        body {
+            background-color: rgb(53, 145, 161);
+            font: bold 14pt Arial;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    Seu país de origem: <input type="text" name="pais" id="txtpais">
+    <input type="button" value="Enviar" onclick="verificar()">
+    <div id="res"> </div>
+
+</body>
+<script>
+    function verificar() {
+        var pais = window.document.getElementById('txtpais').value
+        var res = window.document.getElementById('res')
+
+        res.innerHTML = `<p>Você indicou o país: ${pais}. </p>`
+        if (pais == 'Brasil') {
+            res.innerHTML += '<p>Você é considerado nativo. </p>'
+        } else {
+            res.innerHTML += '<p>Você é considerado estrangeiro.</p>'
+        }
+    }
+</script>
+
+</html>

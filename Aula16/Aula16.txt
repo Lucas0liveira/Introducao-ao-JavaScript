@@ -1,0 +1,7 @@
+  
+
+
+  -number operado com um undefined resulta em NaN (not a number)
+  - function soma(n1=0, n2=0) { ... } n1 vale 0 caso nenhum valor seja passado
+  - É possível passar um função para uma variável
+    let v = funciton(n) {...}

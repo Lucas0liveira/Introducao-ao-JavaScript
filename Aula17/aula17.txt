@@ -1,0 +1,25 @@
+O que vimos até aqui:
+    - Fundamentos
+    - Variáveis e Dados
+    - Operadores
+    - Condições
+    - Repetições
+    - Arrays
+    - Functions
+    - DOM (Documento Object Model)
+
+Próximos passos:
+    - HTML5 e CSS no CursoEmVideo
+    - Aprofundar Functions (arrow, funções anonimas callbacks, iifes, JavaScript funcional...)
+    - Objetos (Orientação a Objetos)
+    - Modularização (modularizar códigos)
+    - RegEx (Expressões Regulares)
+    - JSON
+    - AJAX
+    - NodeJS
+
+let amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
+|-----------------------------|
+|José | M | 85.4 | [function] |
+|-----------------------------|
+ nome sexo  peso  engordar(p){}
